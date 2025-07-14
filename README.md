@@ -1,4 +1,4 @@
-# EVM Trading Engine
+# Minimal EVM Trading Engine
 
 A TypeScript library built using ethers for interacting with various DeFi protocols across multiple blockchains (Ethereum, Arbitrum, Base).
 
