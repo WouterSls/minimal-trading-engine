@@ -1,6 +1,6 @@
 # EVM Trading Engine
 
-A TypeScript library for interacting with various DeFi protocols across multiple blockchains (Ethereum, Arbitrum, Base).
+A TypeScript library built using ethers for interacting with various DeFi protocols across multiple blockchains (Ethereum, Arbitrum, Base).
 
 ## Overview
 
@@ -18,10 +18,10 @@ The project is organized into the following structure:
 - **smartcontracts/**: Smartcontract interaction models
 - **trading/**: Trading-specific models and logic
 
-
 ## Usage
 
 The trading engine is developed to handle trades in following format
+
 ```ts
 export type TradeCreationDto = {
   chain: ChainType;
@@ -33,6 +33,7 @@ export type TradeCreationDto = {
 ```
 
 The engine will validate the trade and craft a transaction based on:
+
 - Trade parameters
 - Chain
 - Best Route / Protocol
