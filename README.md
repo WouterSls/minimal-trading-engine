@@ -4,7 +4,7 @@ A TypeScript library built using ethers for interacting with various DeFi protoc
 
 ## Overview
 
-This library severs as a minimal implementation of [EVM Trading Engine](https://github.com/woutersls/evm-trading-engine). This can be used as imported library to easly build crypto trading applications. This library was developed to solve the issue of placing limit order on decentralized exchanges.
+This library serves as a minimal implementation of [EVM Trading Engine](https://github.com/woutersls/evm-trading-engine). This can be used as imported library to easly build crypto trading applications. This library was developed to solve the issue of placing limit order on decentralized exchanges.
 
 ## Architecture
 
